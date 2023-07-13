@@ -1,2 +1,2 @@
-# Portfolio-GC
- My personal portfolio
+# My-Portfolio
+ This repository contains source code for my personal portfolio website
