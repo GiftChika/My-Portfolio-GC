@@ -17,10 +17,20 @@ body{
     height: 100vh;
 }
 .myname,.field,.shortnote,.btn{
-    animation: ping 1s cubic-bezier(0, 0, 0, 0) 0s;
+    animation: ping 1s cubic-bezier(0, 0, 0, 0) 2s;
     
 }
 @keyframes ping {
     0%{transform: translateY(500px);}
     100%{transform: scale(2);}
+  }
+
+  @media (max-width: 480px) {
+    .banner-section{
+        background-image: url(/img/laptop-half-closed-dark-with-colourful-glow-glasses-paper-cup.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+    }
   }
