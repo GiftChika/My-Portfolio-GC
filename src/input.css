@@ -9,6 +9,13 @@
 body{   
     background-color: #060606;
 }
+
+@media (min-width: 300px) {
+    .open{
+      display: block;
+    }
+    
+}
 .banner-section{
     background-image: url(/img/laptop-half-closed-dark-with-colourful-glow-glasses-paper-cup.jpg);
     background-size: cover;
@@ -17,7 +24,7 @@ body{
     height: 100vh;
 }
 .myname,.field,.shortnote,.btn{
-    animation: ping 1s cubic-bezier(0, 0, 0, 0) 2s;
+    animation: ping 1s cubic-bezier(0, 0, 0, 0) 3s;
     
 }
 @keyframes ping {
@@ -34,3 +41,28 @@ body{
         height: 400px;
     }
   }
+  
+  .color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #f0b205;
+    }
+    100% {
+      background: #f0b205;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #0a3ae8;
+    }
+  }
+  
